@@ -1,4 +1,4 @@
-# Clib Modern by Naylor
+# Clib Modern:
 
   ![Build Status](https://github.com/clibs/clib/actions/workflows/tests.yml/badge.svg)
   [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a196ec36c31349e18b6e4036eab1d02c)](https://www.codacy.com/gh/clibs/clib?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=clibs/clib&amp;utm_campaign=Badge_Grade)
@@ -180,3 +180,4 @@ $ clib install visionmedia/mon visionmedia/every visionmedia/watch
 
   - [Introducing Clib](https://medium.com/code-adventures/b32e6e769cb3) - introduction to clib
   - [The Advent of Clib: the C Package Manager](https://web.archive.org/web/20200128184218/http://blog.ashworth.in/2014/10/19/the-advent-of-clib-the-c-package-manager.html) - overview article about clib
+
