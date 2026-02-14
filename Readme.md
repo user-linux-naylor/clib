@@ -1,4 +1,4 @@
-# Clib Modern:
+# Clib Fork:
 
   ![Build Status](https://github.com/clibs/clib/actions/workflows/tests.yml/badge.svg)
   [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a196ec36c31349e18b6e4036eab1d02c)](https://www.codacy.com/gh/clibs/clib?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=clibs/clib&amp;utm_campaign=Badge_Grade)
@@ -11,16 +11,15 @@
 
   Expects [libcurl](http://curl.haxx.se/libcurl/) to be installed and linkable.
 
+ 
+<a href="docs/installation/user_linux.md" > OpenBSD </a>
+
+<a href="docs/installation/user_linux.md"> FreeBSD </a>
+
  <a href="docs/installation/user_linux.md" > Linux </a>
+
  <a href="docs/installation/user_mac_md"> Mac </a>
 
-  With git:
-
-```sh
-$ git clone https://github.com/clibs/clib.git /tmp/clib
-$ cd /tmp/clib
-$ make install
-```
 
 ## About
 
