@@ -1,5 +1,13 @@
 ## Linux Clib Installation: 
 
+With git:
+
+```sh
+$ git clone https://github.com/clibs/clib.git /tmp/clib
+$ cd /tmp/clib
+$ make install
+```
+
   Ubuntu:
 
   ```sh
@@ -20,14 +28,13 @@ Fedora:
 $ sudo dnf install libcurl-devel
 # clone
 $ git clone https://github.com/clibs/clib.git /tmp/clib && cd /tmp/clib
-    # build
-    $ make
-    # put on path
-    $ sudo make install
+# build
+$ make
+# put on path
+$ sudo make install
 ```
 
-    Nix:
-
+Nix:
 ```sh
 $ nix-env -i clib
 ```                                                                                                                                                                                                                            Or add to your `nativeBuildInputs`.
