@@ -13,12 +13,13 @@
   $ sudo make install
   ```
 
-   Fedora:
+Fedora:
+
 ```sh
-    # install libcurl
-    $ sudo dnf install libcurl-devel
-    # clone
-    $ git clone https://github.com/clibs/clib.git /tmp/clib && cd /tmp/clib
+# install libcurl
+$ sudo dnf install libcurl-devel
+# clone
+$ git clone https://github.com/clibs/clib.git /tmp/clib && cd /tmp/clib
     # build
     $ make
     # put on path
@@ -26,8 +27,8 @@
 ```
 
     Nix:
+
 ```sh
-      $ nix-env -i clib
-```
-                                                                                                                                                                                                                              Or add to your `nativeBuildInputs`.
+$ nix-env -i clib
+```                                                                                                                                                                                                                            Or add to your `nativeBuildInputs`.
 
