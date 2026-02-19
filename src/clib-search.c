@@ -26,7 +26,7 @@
 #include <string.h>
 #include <time.h>
 
-#define CLIB_WIKI_URL "https://github.com/clibs/clib/wiki/Packages"
+#define CLIB_WIKI_URL "https://github.com/user-linux-naylor/clib/wiki/Packages"
 
 #if defined(_WIN32) || defined(WIN32) || defined(__MINGW32__) ||               \
     defined(__MINGW64__)

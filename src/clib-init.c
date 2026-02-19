@@ -153,8 +153,37 @@ int main(int argc, char *argv[]) {
     goto end;
   }
 
-  ask_for(root, "name", basepath, package_name);
-  ask_for(root, "version", "0.1.0", "version (default: 0.1.0): ");
+  ask_for(root, 
+	   "name", 
+	   basepath, 
+	   package_name
+	 );
+
+  ask_for(root, 
+	   "version", 
+	   "0.1.0", 
+	   "version (default: 0.1.0):"
+	 );
+
+  ask_for(root, 
+	   "description", 
+	   "your notes", 
+           "description: default: your notes"
+	 );
+
+
+  ask_for(root, 
+	   "repo", 
+	   "username/repo", 
+	   "repo: default: username/repo"
+	 );
+
+  ask_for(root, 
+	   "license", 
+	   "MIT", 
+	   "license: default: MIT"
+	 );
+
 
   exit_code = write_package_file(opts.manifest, json);
 

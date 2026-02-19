@@ -12,9 +12,9 @@
   Expects [libcurl](http://curl.haxx.se/libcurl/) to be installed and linkable.
 
  
-<a href="docs/installation/user_linux.md" > OpenBSD </a>
+<a href="docs/installation/user_open_bsd.md" > OpenBSD </a>
 
-<a href="docs/installation/user_linux.md"> FreeBSD </a>
+<a href="docs/installation/user_free_bsd.md"> FreeBSD </a>
 
  <a href="docs/installation/user_linux.md" > Linux </a>
 
