@@ -168,20 +168,20 @@ int main(int argc, char *argv[]) {
   ask_for(root, 
 	   "description", 
 	   "your notes", 
-           "description: default: your notes"
+           "description: (default: your notes):"
 	 );
 
 
   ask_for(root, 
 	   "repo", 
 	   "username/repo", 
-	   "repo: default: username/repo"
+	   "repo: (default: username/repo):"
 	 );
 
   ask_for(root, 
 	   "license", 
 	   "MIT", 
-	   "license: default: MIT"
+	   "license: (default: MIT):"
 	 );
 
 
